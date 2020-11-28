@@ -59,6 +59,10 @@ TARGET_USES_64_BIT_BINDER := true
 # Asserts
 TARGET_OTA_ASSERT_DEVICE := potter,potter_retail
 
+# Dex
+PRODUCT_DEXPREOPT_SPEED_APPS += \
+    SystemUI
+
 # Enable dexpreopt to speed boot time
 WITH_DEXPREOPT := true
 TARGET_FLATTEN_APEX := true
