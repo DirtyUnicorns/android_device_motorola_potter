@@ -62,7 +62,6 @@ TARGET_OTA_ASSERT_DEVICE := potter,potter_retail
 
 # Enable dexpreopt to speed boot time
 WITH_DEXPREOPT := true
-TARGET_FLATTEN_APEX := true
 
 # GPS
 TARGET_NO_RPC := true
@@ -91,9 +90,6 @@ TARGET_KERNEL_CONFIG := potter_defconfig
 TARGET_KERNEL_SOURCE := kernel/motorola/msm8953
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CLANG_VERSION := 10.0.5
-
-# APEX image
-DEXPREOPT_GENERATE_APEX_IMAGE := true
 
 # Audio
 AUDIO_FEATURE_ENABLED_ALAC_OFFLOAD := true
